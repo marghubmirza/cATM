@@ -1,52 +1,45 @@
-# Clothes Picker CLI
+![Alt text](Columbia.jpeg?raw=true "BootCamp")
 
-This is a command-line interface application for selecting an outfit composed of shirts and pants written in python.
+# FinTech
 
----
+This will eventually turn into a git repository to house all the code needed to complete the projects.
 
-## Technologies
 
-This project leverages python 3.7 with the following packages:
+Step 1:
+ - Install Git: http://git-scm.com/download/win
+ 
+Step 2:
+ - Fork Repository (Upper right button)
+ 
+ Step 3:
+  - Set up a folder on your computer where you can keep a copy of this repo
+  
+ Step 4:
+  - Open up the command prompt
+    - If the folder you created in Step 3 is open on your desktop, type `cmd` where the file path is and the terminal will open
+    
+ Step 5:
+  - type `git clone  https://github.com/marghubmirza/MirzaStock.git` and hit enter
+  
+ You should now have the same copy I have and can run the code as needed!
+ 
 
-* [fire](https://github.com/google/python-fire) - For the command line interface, help page, and entry-point.
 
-* [questionary](https://github.com/tmbo/questionary) - For interactive user prompts and dialogs
+# Description
+The Bootcamp provides an overview of the fundamental concepts necessary to work within the Python statistical programming language. Through a series of annotated, hands-on lessons that include practice exercises, students will learn to understand the basic principles of language 
 
----
+## Table of Contents
 
-## Installation Guide
+++++++++++++++++++++++
 
-Before running the application first install the following dependencies.
 
-```python
-  pip install fire
-  pip install questionary
-```
+### Unit 1 ([Script](https://github.com/trending?spoken_language_code=en), [Exercise](https://github.com/trending?spoken_language_code=en))
+-	Installing VS Studio
 
----
+-	Arithmetic operators and mathematical functions
+-	Using functions and getting help
+### Unit 2 ([Solution](https://github.com/trending?spoken_language_code=en))
+-	Relational operators
+-	Data types
+-	Objects and assignment operators
 
-## Usage
-
-To use the clothes picker application simply clone the repository and run the **cli.py** with the `--pants=true` flag for a full outfit:
-
-```python
-python cli.py --pants=true
-```
-
-Upon launching the clothes picker you will be greeted with the following prompts.
-
-![Clothes PIcker CLI](Images/cli.png)
-
----
-
----
-
-## Contributors
-
-Brought to you by Shirt&Pants.ai.
-
----
-
-## License
-
-MIT
